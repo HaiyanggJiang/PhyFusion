@@ -59,7 +59,7 @@ def test_all(path=os.path.join(os.getcwd(), 'OUTPUT', 'LLVIP_500'), data='assets
     if DIDF_Encoder is None:
         DIDF_Encoder = Restormer_Encoder().to(device)
         DIDF_Decoder = Restormer_Decoder().to(device)
-        ckpt_path = "savePTH/e/best_model.pth"
+        ckpt_path = "CHECKPOINT/best_model.pth"
         ckpt = torch.load(ckpt_path, map_location="cpu")
 
         safe_load_into(DIDF_Encoder, ckpt["DIDF_Encoder"], name="DIDF_Encoder")
@@ -217,8 +217,8 @@ if __name__ == '__main__':
     parser.add_argument('--smp_model', type=str, default='DeepLabV3Plus')
     parser.add_argument('--smp_encoder', type=str, default='efficientnet-b4')
     parser.add_argument('--smp_encoder_weights', type=str, default='imagenet')
-    parser.add_argument('--weights_file',type=str, default="CHECKPOINT/tev_msrs.pth", help="")
-    parser.add_argument('--ckpt_path',type=str, default="CHECKPOINT/DeCOM.pth", help="")
+    parser.add_argument('--weights_file',type=str, default="CHECKPOINT/IR.pth", help="")
+    parser.add_argument('--ckpt_path',type=str, default="CHECKPOINT/VIS.pth", help="")
     args = parser.parse_args()
     
     test_all(args = args)
