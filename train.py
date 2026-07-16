@@ -301,7 +301,7 @@ class TeVTrain:
                         torch.save(save_file, os.path.join(epoch_folder, "best_model.pth"))
                         print(f'Epoch {epoch}/{Allepochs}, Model saved at {epoch_folder}, min_l_g_total: {min_l_g_total:.6f}')
 
-                        # 放在 class TeVTrain 内，例如 __init__ 之后
+                       
     def _safe_load_into(self, model, src_sd, name="model"):
         dst_sd = model.state_dict()
 
