@@ -8,7 +8,7 @@
 
 ## ✨News:
 
-[2025-7-4] 我们的论文《[PhyFusion: Physics-Aware Infrared and Visible Image Fusion via Modality-Specific Physical Priors]》被**2026CVPR Findings** 正式接收！[[论文下载]([https://www.sciencedirect.com/science/article/pii/S1566253525005068](https://openaccess.thecvf.com/content/CVPR2026F/html/Jiang_PhyFusion_Physics-Aware_Infrared_and_Visible_Image_Fusion_via_Modality-Specific_Physical_CVPRF_2026_paper.html))]
+[2025-7-4] 我们的论文《[PhyFusion: Physics-Aware Infrared and Visible Image Fusion via Modality-Specific Physical Priors]》被**2026CVPR Findings** 正式接收！[[论文下载]](https://openaccess.thecvf.com/content/CVPR2026F/html/Jiang_PhyFusion_Physics-Aware_Infrared_and_Visible_Image_Fusion_via_Modality-Specific_Physical_CVPRF_2026_paper.html)
 
 ## Recommended Environment
  - [ ] torch  2.2.1
