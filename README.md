@@ -24,7 +24,7 @@ conda create -n phyfusion python=3.9.0
 conda activate phyfusion
 ```
 ### Test
-Downloading the pre-trained checkpoint from [best_model.pth](), [IR.pth]() and [VIS.pth](). 
+Downloading the pre-trained checkpoint from [best_model.pth](https://pan.baidu.com/s/1D63POJPo-Ue6FeW7KLYAOA?pwd=67we), [IR.pth](https://pan.baidu.com/s/1O9JluiXGe41bBpxz7laQXQ?pwd=rttb) and [VIS.pth](https://pan.baidu.com/s/1UZklGI_NbCgKf9ToCnQTpQ?pwd=x6qt). 
 Place them in CHECKPOINT!
 
 ## 📝 Citation
